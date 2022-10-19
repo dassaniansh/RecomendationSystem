@@ -17,7 +17,7 @@ with open('songeng.csv', encoding="utf8", errors='ignore') as file_obj:
 
 books_data=[]
 # bookID,title,authors,average_rating,isbn,isbn13,language_code,  num_pages,ratings_count,text_reviews_count,publication_date,publisher
-with open('books.csv') as file_obj:
+with open('books.csv', encoding='utf-8') as file_obj:
     heading = next(file_obj)
     reader_obj = csv.reader(file_obj)
     for row in reader_obj:

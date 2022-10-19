@@ -1,0 +1,43 @@
+body{
+    background-image: url("../ech-echop.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    padding-top: 8%;
+}
+
+select {
+    outline: 0;
+    background: rgb(28, 34, 113);
+    background-image: none;
+    padding: 0.7%;
+    width: 16%;
+    color: whitesmoke;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 13px;
+}
+
+input[type=submit] {
+    background-color: rgb(216, 156, 58);
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 23px;
+  }
+
+input[type=text] {
+    background-color: rgb(255, 249, 239);
+    border: none;
+    color: rgb(1, 0, 0);
+    padding: 15px 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
