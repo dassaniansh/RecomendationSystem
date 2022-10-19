@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Book</h2>
+    
+    <!-- bookID,title,authors,average_rating,isbn,isbn13,language_code,  num_pages,ratings_count,text_reviews_count,publication_date,publisher -->
+    {% for item in data %}
+    <dt>{{item[1]}}</dt>
+    <dd>- {{item[2]}}</dd>
+    <dd>- {{item[3]}}</dd>
+    {% endfor %}
+
+</body>
+
+</html>

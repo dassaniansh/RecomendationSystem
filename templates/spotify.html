@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Songs</h2>
+
+    <!-- title,description,appears on,artist,writers,producer,released,streak,position -->
+    <!-- Sr. no. ,Song Title ,Movie,Year of release,Music director,Song type,Singer type,Singers,Youtube link,Audio Link -->
+    {% for item in data %}
+    <dt>{{item[0]}}</dt>
+    <dd>- {{item[3]}}</dd>
+    {% endfor %}
+
+</body>
+
+</html>
